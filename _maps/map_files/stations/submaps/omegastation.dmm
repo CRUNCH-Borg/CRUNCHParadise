@@ -1558,9 +1558,6 @@
 "zs" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/yellow{
 	icon_state = "2-4"
 	},
 /obj/machinery/atmospherics/pipe/manifold/visible/green{

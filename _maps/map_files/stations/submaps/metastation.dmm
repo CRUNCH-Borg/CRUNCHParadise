@@ -184,9 +184,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
@@ -1953,9 +1950,6 @@
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
 "Du" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan,
 /obj/machinery/atmospherics/meter,
@@ -1974,10 +1968,10 @@
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
 "DM" = (
-/obj/effect/spawner/window/reinforced/plasma,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
+	dir = 10
 	},
+/obj/effect/spawner/window/reinforced/plasma,
 /turf/simulated/floor/plating,
 /area/station/engineering/engine/reactor)
 "DT" = (
@@ -2991,6 +2985,19 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/reactor)
+"Sp" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -4574,7 +4581,7 @@ wY
 wY
 ae
 IQ
-tM
+Sp
 oY
 kg
 Ve
