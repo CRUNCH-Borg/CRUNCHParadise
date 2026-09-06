@@ -300,9 +300,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /obj/structure/disaster_counter/supermatter{
 	pixel_x = 32
@@ -495,6 +492,15 @@
 /area/station/engineering/engine/reactor)
 "gc" = (
 /turf/simulated/floor/plasteel/dark,
+/area/station/engineering/engine/reactor)
+"gh" = (
+/obj/machinery/atmospherics/unary/portables_connector{
+	dir = 8
+	},
+/obj/machinery/atmospherics/portable/canister/nitrogen,
+/obj/effect/turf_decal/delivery/hollow,
+/obj/machinery/light,
+/turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
 "gF" = (
 /obj/machinery/power/reactor_power,
@@ -1108,21 +1114,6 @@
 /obj/machinery/atmospherics/fission_reactor/roundstart,
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
-"qE" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/green{
-	dir = 4
-	},
-/turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
 "qG" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight,
@@ -1441,7 +1432,6 @@
 	icon_state = "1-8"
 	},
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/light,
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan,
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -1643,9 +1633,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/machinery/light{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/manifold/visible/green{
 	dir = 1
 	},
@@ -1784,6 +1771,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
 "BB" = (
@@ -1800,6 +1790,15 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/reactor)
+"BJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -1931,7 +1930,6 @@
 	icon_state = "2-8"
 	},
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/light,
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan,
 /obj/machinery/atmospherics/meter,
 /turf/simulated/floor/engine,
@@ -2263,6 +2261,9 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
 "HK" = (
@@ -2282,6 +2283,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
+"Io" = (
+/obj/effect/map_effect/marker/mapmanip/submap/extract/station/omegastation/engine,
+/turf/template_noop,
+/area/template_noop)
 "Iv" = (
 /obj/effect/turf_decal/trimline/misc/toxins/line{
 	dir = 4
@@ -2453,6 +2458,17 @@
 /obj/machinery/atmospherics/binary/pump{
 	name = "Cooling Loop Bypass";
 	dir = 8
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/reactor)
+"KR" = (
+/obj/machinery/atmospherics/unary/portables_connector{
+	dir = 8
+	},
+/obj/machinery/atmospherics/portable/canister,
+/obj/effect/turf_decal/delivery/hollow,
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -2675,9 +2691,6 @@
 "Ny" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/engine,
@@ -3523,6 +3536,21 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
+"ZH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/reactor)
 "ZV" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 1;
@@ -3576,7 +3604,7 @@ wY
 wY
 wY
 wY
-wY
+Io
 wY
 "}
 (3,1,1) = {"
@@ -4446,16 +4474,16 @@ wY
 (39,1,1) = {"
 wY
 Lu
-lG
+ZH
 tM
 WE
-WE
+gh
 Lu
 Yf
 Mp
 NQ
 Lu
-Vo
+KR
 Vo
 Wk
 rc
@@ -4481,7 +4509,7 @@ Rj
 nS
 OL
 VF
-qE
+Wk
 Us
 mn
 Lu
@@ -4599,7 +4627,7 @@ Kd
 WX
 Gm
 bb
-yc
+BJ
 Gl
 Bm
 FD

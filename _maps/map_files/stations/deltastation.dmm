@@ -5242,7 +5242,6 @@
 /turf/simulated/floor/engine,
 /area/station/engineering/controlroom)
 "axL" = (
-/obj/machinery/light,
 /obj/effect/turf_decal/stripes/line,
 /turf/simulated/floor/engine,
 /area/station/engineering/controlroom)
@@ -5251,15 +5250,13 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 5
 	},
+/obj/machinery/light,
 /turf/simulated/floor/engine,
 /area/station/engineering/controlroom)
 "axN" = (
-/obj/item/radio/intercom{
-	name = "south bump";
-	pixel_y = -28
-	},
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan,
+/obj/machinery/light,
 /turf/simulated/floor/engine,
 /area/station/engineering/controlroom)
 "axO" = (
@@ -6762,20 +6759,6 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/controlroom)
-"aDh" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/engine,
-/area/station/engineering/controlroom)
 "aDi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6975,22 +6958,6 @@
 	},
 /turf/space,
 /area/station/engineering/solar/fore_port)
-"aEe" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/visible/cyan{
-	dir = 8;
-	initialize_directions = 11
-	},
-/turf/simulated/floor/engine,
-/area/station/engineering/controlroom)
 "aEf" = (
 /obj/effect/turf_decal/delivery/hollow,
 /obj/machinery/atmospherics/pipe/manifold/visible/red{
@@ -7287,7 +7254,7 @@
 /turf/simulated/floor/engine,
 /area/station/engineering/controlroom)
 "aFg" = (
-/obj/structure/sign/fire,
+/obj/structure/disaster_counter/supermatter,
 /turf/simulated/wall/r_wall,
 /area/station/engineering/engine/supermatter)
 "aFh" = (
@@ -7526,6 +7493,9 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan,
+/obj/structure/sign/magboots{
+	pixel_y = 32
+	},
 /turf/simulated/floor/engine,
 /area/station/engineering/controlroom)
 "aFZ" = (
@@ -51340,6 +51310,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/engine,
 /area/station/engineering/controlroom)
 "fev" = (
@@ -54788,9 +54761,6 @@
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/delivery/hollow,
-/obj/structure/sign/nosmoking/alt{
-	pixel_x = 32
-	},
 /obj/structure/dispenser,
 /turf/simulated/floor/engine,
 /area/station/engineering/controlroom)
@@ -58888,6 +58858,13 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/supply/miningdock)
+"ibJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/light,
+/turf/simulated/floor/engine,
+/area/station/engineering/controlroom)
 "ibK" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	autolink_id = "waste_in";
@@ -59548,11 +59525,10 @@
 /turf/simulated/floor/catwalk/black,
 /area/station/turret_protected/aisat)
 "iqV" = (
-/obj/machinery/light,
-/obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
+/obj/effect/turf_decal/stripes/line,
 /turf/simulated/floor/engine,
 /area/station/engineering/controlroom)
 "iqW" = (
@@ -67551,6 +67527,15 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/atmos)
+"lCY" = (
+/obj/machinery/atmospherics/unary/portables_connector,
+/obj/effect/turf_decal/delivery/hollow,
+/obj/machinery/atmospherics/portable/canister,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/controlroom)
 "lDb" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -79026,7 +79011,6 @@
 /area/station/maintenance/fsmaint)
 "qgC" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
-/obj/structure/disaster_counter/supermatter,
 /turf/simulated/wall/r_wall,
 /area/station/engineering/engine/supermatter)
 "qgQ" = (
@@ -80278,6 +80262,13 @@
 /obj/effect/turf_decal/tiles/department/security/corner,
 /turf/simulated/floor/plasteel,
 /area/station/hallway/primary/starboard/east)
+"qJn" = (
+/obj/effect/turf_decal/delivery/hollow,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/controlroom)
 "qJo" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
@@ -85797,6 +85788,15 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/maintenance/electrical/aft_starboard)
+"sJg" = (
+/obj/machinery/atmospherics/unary/portables_connector,
+/obj/effect/turf_decal/delivery/hollow,
+/obj/machinery/atmospherics/portable/canister/nitrogen,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/controlroom)
 "sJn" = (
 /obj/machinery/hologram/holopad,
 /obj/effect/turf_decal/tiles/neutral,
@@ -122429,7 +122429,7 @@ aLq
 aLq
 aLq
 aAf
-aLq
+qJn
 aLq
 ukW
 hRe
@@ -123201,7 +123201,7 @@ aCp
 ayV
 aCS
 aCS
-aDh
+aHc
 aHc
 aHc
 aEn
@@ -123716,7 +123716,7 @@ aAd
 aAd
 aEk
 npF
-aCj
+lCY
 aEf
 ahD
 aHh
@@ -125258,7 +125258,7 @@ jig
 iYs
 aEs
 wpA
-aDc
+sJg
 aEj
 aGa
 xVK
@@ -125771,7 +125771,7 @@ qNO
 azV
 pzS
 aCU
-aEe
+aFV
 aFV
 aFV
 aGb
@@ -126798,7 +126798,7 @@ jYj
 atd
 fec
 ukz
-stY
+ibJ
 atd
 vhh
 hNo

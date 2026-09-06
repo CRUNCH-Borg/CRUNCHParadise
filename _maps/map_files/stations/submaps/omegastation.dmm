@@ -452,14 +452,14 @@
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
 "hd" = (
-/obj/machinery/atmospherics/binary/pump{
-	dir = 4;
-	on = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/binary/pump{
+	dir = 4;
+	name = "Cooling Loop to Gas"
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -867,9 +867,6 @@
 "py" = (
 /obj/structure/cable{
 	icon_state = "4-8"
-	},
-/obj/structure/disaster_counter/reactor{
-	pixel_y = 32
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -1428,10 +1425,10 @@
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
 "wJ" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red{
+/obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/stripes/line{
+/obj/machinery/atmospherics/pipe/simple/visible/purple{
 	dir = 4
 	},
 /turf/simulated/floor/engine,
@@ -1548,14 +1545,14 @@
 /area/station/engineering/control)
 "zs" = (
 /obj/effect/turf_decal/stripes/corner,
-/obj/machinery/atmospherics/pipe/simple/visible/green{
-	dir = 6
-	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/green{
+	dir = 8
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -2393,14 +2390,14 @@
 /turf/simulated/floor/plating,
 /area/station/engineering/engine/reactor)
 "MX" = (
-/obj/machinery/atmospherics/binary/pump{
-	dir = 8;
-	on = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/binary/pump{
+	dir = 8;
+	name = "Cooling Loop to Gas"
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -2929,6 +2926,10 @@
 /obj/machinery/light,
 /turf/simulated/floor/plasteel/reactor_pool,
 /area/station/engineering/engine/reactor)
+"WH" = (
+/obj/structure/disaster_counter/supermatter,
+/turf/simulated/wall/r_wall,
+/area/station/engineering/engine/reactor)
 "WK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/engine,
@@ -3068,7 +3069,7 @@
 "Zc" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 8;
-	on = 1
+	name = "Cooling Loop to Gas"
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -3122,7 +3123,7 @@
 "ZS" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4;
-	on = 1
+	name = "Cooling Loop to Gas"
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -4077,7 +4078,7 @@ cm
 Hq
 Vh
 ME
-qL
+WH
 qL
 ak
 Cj

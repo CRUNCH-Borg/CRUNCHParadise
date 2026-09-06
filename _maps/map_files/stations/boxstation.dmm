@@ -38046,12 +38046,12 @@
 /turf/simulated/floor/plasteel,
 /area/station/engineering/equipmentstorage)
 "cUo" = (
-/obj/machinery/atmospherics/pipe/simple/visible/universal{
-	dir = 4
-	},
 /obj/structure/extinguisher_cabinet{
 	name = "east bump";
 	pixel_x = 30
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/purple{
+	dir = 10
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/engine/reactor)
@@ -40531,9 +40531,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/station/maintenance/storage)
 "deY" = (
@@ -46761,6 +46759,16 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/medical/morgue)
+"eIg" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/binary/valve/digital/open{
+	name = "Output to Exhaust";
+	dir = 8
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/reactor)
 "eIh" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -50076,12 +50084,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/public/dorms)
-"gcQ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 8
-	},
-/turf/simulated/wall/r_wall,
-/area/station/maintenance/storage)
 "gdf" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -50993,12 +50995,11 @@
 /area/station/maintenance/fpmaint2)
 "gvv" = (
 /obj/structure/railing/pool_lining,
-/obj/machinery/atmospherics/binary/valve/digital/open{
-	name = "Output to Exhaust";
-	dir = 8
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/universal{
+	dir = 4
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -52159,6 +52160,14 @@
 	},
 /turf/simulated/floor/wood,
 /area/station/service/library)
+"gVl" = (
+/obj/structure/railing/pool_lining,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/reactor)
 "gVm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel,
@@ -62075,8 +62084,8 @@
 /obj/structure/railing/corner/pool_corner{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/visible/purple{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 9
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/engine/reactor)
@@ -62637,9 +62646,7 @@
 /area/station/command/bridge)
 "lwQ" = (
 /obj/structure/closet/emcloset,
-/obj/machinery/atmospherics/pipe/simple/visible/purple{
-	dir = 10
-	},
+/obj/machinery/atmospherics/pipe/simple/visible/purple,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/engine/reactor)
 "lxA" = (
@@ -64088,6 +64095,12 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/atmos/control)
+"mfj" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/station/engineering/engine/reactor)
 "mfl" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/atmos{
@@ -64513,7 +64526,7 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/port)
 "mnc" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red{
+/obj/machinery/atmospherics/pipe/simple/visible/purple{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
@@ -64618,6 +64631,14 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/security/prison/cell_block/a)
+"mpJ" = (
+/obj/structure/railing/pool_lining,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/reactor)
 "mqP" = (
 /obj/machinery/door/poddoor/preopen{
 	id_tag = "Secure Gate";
@@ -77612,10 +77633,8 @@
 /turf/simulated/floor/plasteel/dark,
 /area/station/medical/surgery/observation)
 "rWB" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/red{
-	dir = 4
-	},
 /obj/item/pipe_meter,
+/obj/machinery/atmospherics/pipe/manifold/visible/red,
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
 "rWJ" = (
@@ -78700,11 +78719,11 @@
 /obj/effect/turf_decal/trimline/misc/toxins/corner{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
 /obj/machinery/light/floor,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
 "sys" = (
@@ -80372,12 +80391,12 @@
 /obj/structure/railing/corner/pool_corner{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 5
-	},
 /obj/effect/turf_decal/stripes/red/line,
 /obj/effect/turf_decal/caution/stand_clear{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -82240,6 +82259,13 @@
 /obj/structure/sign/poster/official/random/directional/south,
 /turf/simulated/floor/plasteel,
 /area/station/hallway/primary/starboard/west)
+"tZZ" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/reactor)
 "uac" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -85990,6 +86016,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/visible/purple,
 /obj/structure/closet/crate/can,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/engine/reactor)
@@ -122031,9 +122058,9 @@ hvx
 uGL
 hvx
 syp
-wva
-oAS
-jjz
+oSD
+tZZ
+mpJ
 hOq
 nxq
 nxq
@@ -122290,7 +122317,7 @@ cUl
 esG
 tDn
 oAS
-jjz
+gVl
 hOq
 nxq
 nxq
@@ -122802,8 +122829,8 @@ fWP
 fWP
 qnM
 fWP
+eIg
 nrS
-fWP
 gvv
 vXQ
 nxq
@@ -123060,7 +123087,7 @@ euu
 rlm
 nVf
 mnc
-nVf
+mfj
 llQ
 fbR
 fbR
@@ -123573,7 +123600,7 @@ dcq
 dcq
 dcq
 dcq
-gcQ
+dcq
 dcq
 dcq
 dcq
@@ -123830,7 +123857,7 @@ ddr
 ddr
 ddr
 deP
-gHc
+ddr
 xWG
 ddr
 ddr
