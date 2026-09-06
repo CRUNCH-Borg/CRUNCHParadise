@@ -41,10 +41,10 @@
 /datum/event_news/generic_faction_nanotrasen_fuel_cost/generate()
 	title = "[topic.name] lodges offical complaint with Nanotrasen"
 	body = "[pick("Today", "Yesterday", "Last week", "At the start of this month")], [topic.name] officials sent complaints to Nanotrasen leadership regarding \
-	\"the [pick("soaring", "consistently high", "dispreportionate", "extortionate")]\" prices of plasma fuel. \
+	\"the [pick("soaring", "consistently high", "disproportionate", "extortionate")]\" prices of plasma fuel. \
 	\"[pick("The costs of interstellar travel continue to rise, for no other reason than to benefit Nanotrasen.", \
-	"Despite record-high production figures, pirces have never been higher, it's absurd!", "The effects of Nanotrasen's monopoly are being felt most by the average person.")]\", \
-	[random_name(random_organic_species())] was quoted as saying. The two parties' delegations will meet [pick("next week", "next month", "in due course", "soon")] for negotiations, \
+	"Despite record-high production figures, prices have never been higher, it's absurd!", "The effects of Nanotrasen's monopoly are being felt most by the average person.")]\", \
+	[random_name(random_organic_species())] stated that the two parties' delegations will meet [pick("next week", "next month", "in due course", "soon")] for negotiations, \
 	although pundits have already pointed out Nanotrasen has historically remained steadfast in maintaining the price it believes is fair."
 
 /datum/event_news/generic_faction_hyperspace_phenomena/generate()
@@ -77,7 +77,7 @@
 
 /datum/event_news/ussp_nian_deal/generate()
 	title = "[topic.name] secures trade deal with Nionic Trade League"
-	body = "[pick("Today", "Yesterday", "Last week", "At the start of this month")] on the Nian homeworld of Dom, [topic.name] diplomats and [pick("high ranking members", "the head")] of the Nionic Trade League \
+	body = "[pick("Today", "Yesterday", "Last week", "At the start of this month")] on the Nian homeworld of Dõm, [topic.name] diplomats and [pick("high ranking members", "the head")] of the Nionic Trade League \
 	successfully closed a trade deal. [pick("Technological exchanges", "Mineral-product agreements", "The reaffirmation of free and preferential trade")] between the two nations featured most strongly in the agreement. \
 	Economic forecasts are forseeing an improved economic outlook for the USSP, reversing the onset of an economic downturn caused by the market-wide effects of rising plasma prices."
 
@@ -116,8 +116,8 @@
 // Kidan Anarchy Specific
 /datum/event_news/kidan_anarchy_dynastic_war/generate()
 	title = "Dynastic war breaks out in the [topic.name]"
-	body = "The [pick("Tristan", "Zarlan", "Clack", "Kkraz", "Zramn", "Orlan", "Zrax", "Orax", "Oriz", "Tariz", "Kvestan")] Dynasty has [pick("launched an incursion", "raided", "begun an invasion")] \
-	of a rival dynasty, causing several others to be drawn into fighting as defensive alliances trigger. \
+	body = "The [pick("Tristan", "Zarlan", "Clack", "Kkraz", "Zramn", "Orlan", "Zrax", "Orax", "Oriz", "Tariz", "Kvestan")] Dynasty has [pick("launched an incursion into", "raided", "begun the invasion of")] \
+	a rival dynasty, causing several others to be drawn into fighting as defensive alliances trigger. \
 	Neighboring factions have placed their border forces on high alert as a precaution against fighting spilling over into their territory."
 	if(prob(10))
 		body += "The currently neutral Princess Zrax, presently on a luxury cruse through Epsilon Eridani aboard her royal yacht, was quoted as saying \"many of the kingdoms have lost the old ways. \

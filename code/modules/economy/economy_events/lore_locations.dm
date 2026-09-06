@@ -23,7 +23,7 @@ GLOBAL_LIST_EMPTY(weighted_mundaneevent_locations)
 
 /datum/lore_location/epsilon_eridani // YOU ARE HERE!
 	name = "Epsilon Eridani"
-	description = "The core system of the Free Eridani Repiblic, and the most profitable of Nanotrasen's holdings by a considerable margin. Centuries ago during the initial colonization of the system by the TSF, \
+	description = "The core system of the Free Eridani Republic, and the most profitable of Nanotrasen's holdings by a considerable margin. Centuries ago during the initial colonization of the system by the TSF, \
 	the entire system disappeared in a massive bluespace translocation event and remained missing until a few years after the Cygni Crisis, when it reappeared hundreds of lightyears from its original location. \
 	The characteristics of star and its orbiting planets all perfectly matched old records, and the remains of the original colonies were located, all having been wiped out centuries prior. \
 	What did change was the sudden appearance of Epsilon Eridani II, colloqually known as \"Lavaland\". The bluespace phenomena and extreme mineral wealth of Lavaland prompted Nanotrasen to move in to \
@@ -63,7 +63,7 @@ GLOBAL_LIST_EMPTY(weighted_mundaneevent_locations)
 	)
 
 /datum/lore_location/icarus
-	name = "NSV Icarus"
+	name = "NMV Icarus"
 	description = "A corvette assigned to patrol the station's local space. It has several wings of experimental combat drones to assist in patrols."
 	viable_random_events = list(
 		/datum/event_news/the_wizard,
@@ -395,8 +395,8 @@ GLOBAL_LIST_EMPTY(weighted_mundaneevent_locations)
 */
 
 /datum/lore_location/dom
-	name = "Dom"
-	description = "The Nian homeworld of Dom is tidally locked in orbit around a red dwarf star. \
+	name = "Dõm"
+	description = "The Nian homeworld of Dõm is tidally locked in orbit around a red dwarf star. \
 	The light side is a mostly uninhabitable desert, while the dark side is a slightly more survivable tundra. \
 	Most life can be found on the border region between these two zones, known as The Gloom."
 	viable_random_events = list(
