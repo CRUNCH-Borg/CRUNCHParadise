@@ -44,7 +44,7 @@
 	\"the [pick("soaring", "consistently high", "disproportionate", "extortionate")]\" prices of plasma fuel. \
 	\"[pick("The costs of interstellar travel continue to rise, for no other reason than to benefit Nanotrasen.", \
 	"Despite record-high production figures, prices have never been higher, it's absurd!", "The effects of Nanotrasen's monopoly are being felt most by the average person.")]\", \
-	[random_name(random_organic_species())] stated that the two parties' delegations will meet [pick("next week", "next month", "in due course", "soon")] for negotiations, \
+	[random_name(species = random_organic_species())] stated that the two parties' delegations will meet [pick("next week", "next month", "in due course", "soon")] for negotiations, \
 	although pundits have already pointed out Nanotrasen has historically remained steadfast in maintaining the price it believes is fair."
 
 /datum/event_news/generic_faction_hyperspace_phenomena/generate()
