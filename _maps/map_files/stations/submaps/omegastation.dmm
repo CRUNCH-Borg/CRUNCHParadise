@@ -12,7 +12,7 @@
 	dir = 4
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "av" = (
 /obj/structure/rack{
 	dir = 1
@@ -250,7 +250,7 @@
 "dW" = (
 /obj/machinery/ai_status_display,
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "ee" = (
 /obj/structure/rack{
 	dir = 1
@@ -412,6 +412,12 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/engine/reactor)
+"gD" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/supermatter)
 "gJ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -438,7 +444,7 @@
 	},
 /obj/effect/turf_decal/delivery,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "gW" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -477,7 +483,7 @@
 "hq" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "hv" = (
 /turf/simulated/floor/plasteel/reactor_pool/wall/ladder,
 /area/station/engineering/engine/reactor)
@@ -491,7 +497,7 @@
 "hB" = (
 /obj/effect/spawner/window/reinforced/plasma,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "hG" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -784,7 +790,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "nI" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/green,
 /turf/simulated/floor/engine,
@@ -803,7 +809,7 @@
 	dir = 10
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "ob" = (
 /obj/machinery/atmospherics/unary/portables_connector{
 	dir = 1
@@ -892,7 +898,7 @@
 	},
 /obj/effect/turf_decal/stripes/corner,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "pA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
@@ -1004,7 +1010,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "rj" = (
 /obj/structure/closet/radiation,
 /obj/effect/turf_decal/delivery/hollow,
@@ -1269,7 +1275,7 @@
 "tM" = (
 /obj/machinery/atmospherics/supermatter_crystal,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "tO" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 9
@@ -1452,7 +1458,7 @@
 	},
 /obj/item/tank/internals/plasma,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "xl" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -1484,6 +1490,12 @@
 /obj/effect/turf_decal/delivery,
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
+"yu" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/supermatter)
 "yy" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/effect/turf_decal/stripes/line{
@@ -1521,7 +1533,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "zf" = (
 /obj/item/rpd,
 /obj/structure/table/reinforced,
@@ -1590,7 +1602,7 @@
 "zS" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "zV" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
@@ -1719,6 +1731,9 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
+"Bi" = (
+/turf/simulated/wall/r_wall,
+/area/station/engineering/engine/supermatter)
 "BH" = (
 /obj/effect/turf_decal/trimline/misc/toxins/arrow_cw{
 	dir = 1
@@ -1766,7 +1781,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Ct" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 1;
@@ -1832,7 +1847,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Dq" = (
 /obj/machinery/atmospherics/portable/canister,
 /obj/machinery/atmospherics/unary/portables_connector{
@@ -1951,7 +1966,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Fy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2025,7 +2040,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Gw" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/stripes/line{
@@ -2118,7 +2133,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "HX" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -2131,7 +2146,7 @@
 	dir = 5
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "IL" = (
 /obj/effect/turf_decal/trimline/misc/toxins/line{
 	dir = 8
@@ -2227,7 +2242,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "KT" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/effect/turf_decal/stripes/line{
@@ -2258,7 +2273,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Lb" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel/reactor_pool,
@@ -2274,7 +2289,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Ls" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -2317,7 +2332,7 @@
 "Mg" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Mj" = (
 /obj/effect/turf_decal/trimline/misc/toxins/filled/line,
 /obj/machinery/computer/sm_monitor{
@@ -2592,7 +2607,7 @@
 	},
 /obj/item/crowbar/red,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Qn" = (
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/control)
@@ -2643,6 +2658,9 @@
 /obj/effect/turf_decal/stripes/red,
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
+"RA" = (
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/supermatter)
 "RC" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -2687,7 +2705,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "RN" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2727,13 +2745,13 @@
 	},
 /obj/effect/turf_decal/delivery,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "St" = (
 /obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
 	dir = 6
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "SC" = (
 /obj/effect/turf_decal/tiles/department/engineering/side{
 	dir = 6
@@ -2929,7 +2947,7 @@
 "WH" = (
 /obj/structure/disaster_counter/supermatter,
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "WK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/engine,
@@ -2957,7 +2975,7 @@
 	dir = 9
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Xq" = (
 /obj/machinery/atmospherics/binary/pump{
 	name = "Port to Cooling Loop"
@@ -3061,7 +3079,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "YZ" = (
 /obj/machinery/alarm/directional/west,
 /turf/simulated/floor/plasteel/dark,
@@ -3934,7 +3952,7 @@ St
 Gn
 wL
 Qk
-qL
+Bi
 dE
 bI
 FX
@@ -3958,13 +3976,13 @@ Aa
 xl
 uQ
 sk
-qL
-qL
+Bi
+Bi
 ak
 Fx
 YT
 HU
-qL
+Bi
 Cu
 JZ
 FX
@@ -3991,9 +4009,9 @@ tL
 Mg
 pz
 Xa
-gf
-gf
-gf
+yu
+yu
+yu
 hB
 xD
 kP
@@ -4021,9 +4039,9 @@ rt
 Lr
 yV
 RJ
-zE
+RA
 tM
-zE
+RA
 hB
 Mr
 Rj
@@ -4051,9 +4069,9 @@ Mn
 hq
 nx
 Iz
-pr
-pr
-pr
+gD
+gD
+gD
 hB
 yJ
 tC
@@ -4079,12 +4097,12 @@ Hq
 Vh
 ME
 WH
-qL
+Bi
 ak
 Cj
 La
 qY
-qL
+Bi
 Cu
 JZ
 FX
@@ -4114,7 +4132,7 @@ nT
 CU
 Ki
 Ki
-qL
+Bi
 lG
 bI
 FX

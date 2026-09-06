@@ -179,7 +179,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "cE" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
@@ -317,7 +317,10 @@
 	dir = 1
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
+"dT" = (
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/supermatter)
 "dW" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/green{
 	dir = 4
@@ -416,7 +419,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "eW" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/critical/directional/south,
@@ -480,7 +483,7 @@
 	dir = 6
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "fW" = (
 /obj/structure/rack,
 /obj/item/flashlight,
@@ -541,7 +544,7 @@
 /obj/item/crowbar/red,
 /obj/effect/turf_decal/stripes/line,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "hc" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -679,7 +682,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "iL" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/structure/cable{
@@ -787,7 +790,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "ki" = (
 /obj/machinery/nuclear_centrifuge,
 /turf/simulated/floor/plasteel/dark,
@@ -957,7 +960,7 @@
 "nS" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "nT" = (
 /obj/structure/closet/radiation,
 /obj/structure/cable/yellow{
@@ -984,7 +987,7 @@
 /obj/item/tank/internals/plasma,
 /obj/effect/turf_decal/stripes/line,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "oo" = (
 /turf/simulated/floor/noslip,
 /area/station/engineering/control)
@@ -1033,7 +1036,7 @@
 	},
 /obj/effect/turf_decal/delivery,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "pu" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -1338,7 +1341,7 @@
 	dir = 4
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "ub" = (
 /obj/machinery/atmospherics/binary/pump{
 	name = "Cooling Loop to Gas"
@@ -1560,6 +1563,9 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
+"xx" = (
+/turf/simulated/wall/r_wall,
+/area/station/engineering/engine/supermatter)
 "xG" = (
 /obj/machinery/atmospherics/binary/pump{
 	name = "Gas to Filter"
@@ -1604,7 +1610,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "yc" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -1635,7 +1641,7 @@
 	dir = 9
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "yA" = (
 /obj/machinery/light{
 	dir = 8
@@ -1874,7 +1880,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "CK" = (
 /obj/structure/rack{
 	dir = 1
@@ -2246,7 +2252,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/visible/scrubbers,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "GX" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -2297,6 +2303,10 @@
 /obj/structure/sign/poster/official/random/directional/east,
 /turf/simulated/floor/plasteel/reactor_pool,
 /area/station/engineering/engine/reactor)
+"HR" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/supermatter)
 "HY" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
@@ -2368,7 +2378,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "IQ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -2401,7 +2411,7 @@
 "JE" = (
 /obj/effect/spawner/window/reinforced/plasma,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "JJ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
@@ -2480,7 +2490,7 @@
 	dir = 4
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "KQ" = (
 /obj/machinery/atmospherics/binary/pump{
 	name = "Cooling Loop Bypass";
@@ -2646,13 +2656,19 @@
 	dir = 4
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Mx" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/control)
+"MC" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/engine,
+/area/station/engineering/engine/supermatter)
 "MH" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
@@ -2754,7 +2770,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "NX" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2817,7 +2833,7 @@
 	dir = 5
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "OV" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4
@@ -2901,7 +2917,7 @@
 	dir = 10
 	},
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Rm" = (
 /obj/machinery/atmospherics/binary/valve{
 	name = "Hot Loop - Cold Loop Bridge Valve"
@@ -2927,11 +2943,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "RX" = (
 /obj/machinery/ai_status_display,
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Sb" = (
 /obj/machinery/atmospherics/unary/portables_connector,
 /obj/effect/turf_decal/stripes/line{
@@ -3005,7 +3021,7 @@
 	},
 /obj/effect/turf_decal/delivery,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "SB" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -3063,7 +3079,7 @@
 "Td" = (
 /obj/machinery/atmospherics/supermatter_crystal,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Tg" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/map_effect/dynamic_airlock/door/exterior,
@@ -3084,7 +3100,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Tn" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3195,7 +3211,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Vk" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/machinery/atmospherics/meter,
@@ -3237,7 +3253,7 @@
 "VF" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/r_wall,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "VK" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -3402,7 +3418,7 @@
 	},
 /obj/effect/turf_decal/stripes/corner,
 /turf/simulated/floor/engine,
-/area/station/engineering/engine/reactor)
+/area/station/engineering/engine/supermatter)
 "Yi" = (
 /obj/machinery/door/airlock/engineering/glass{
 	autoclose = 0;
@@ -4489,11 +4505,11 @@ lG
 tM
 Me
 Me
-Lu
+xx
 tZ
 iJ
 KI
-Lu
+xx
 vn
 cV
 Yz
@@ -4513,11 +4529,11 @@ ZH
 tM
 WE
 gh
-Lu
+xx
 Yf
 Mp
 NQ
-Lu
+xx
 KR
 Vo
 Wk
@@ -4562,9 +4578,9 @@ tM
 oY
 kg
 Ve
-ms
-EJ
-cm
+MC
+dT
+HR
 Co
 cz
 Sy
@@ -4586,9 +4602,9 @@ SW
 oY
 RW
 dM
-ms
+MC
 Td
-cm
+HR
 GO
 oi
 Sy
@@ -4610,9 +4626,9 @@ cE
 oY
 Tl
 eP
-ms
-EJ
-cm
+MC
+dT
+HR
 ID
 gU
 Sy
@@ -4632,13 +4648,13 @@ uk
 Ok
 Du
 RX
-Lu
-Lu
+xx
+xx
 JE
 JE
 JE
-Lu
-Lu
+xx
+xx
 RX
 yE
 wK
