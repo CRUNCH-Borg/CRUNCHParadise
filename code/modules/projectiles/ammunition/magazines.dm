@@ -699,7 +699,7 @@
 
 /obj/item/ammo_box/magazine/c_foam
 	name = "\improper C-Foam canister"
-	desc = "A canister containing inert foam for the C-Foam launcher."
+	desc = "A canister containing inert foam for the C-Foam launcher. Big enough to hold 12 shots worth of foam."
 	icon_state = "foam_canister"
 	ammo_type = /obj/item/ammo_casing/caseless/c_foam
 	max_ammo = 12
